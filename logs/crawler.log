@@ -2,3 +2,26 @@
 2025-03-06 09:49:52,076 - INFO - No new jobs found.
 2025-03-06 10:11:35,978 - ERROR - Critical error: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-736985151dcsm323737b3a.141 - gsmtp')
 2025-03-06 10:51:04,138 - INFO - Sent 30 new jobs from: LinkedIn
+2025-03-06 13:52:40,774 - ERROR - Critical error: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-22410aa484fsm6576115ad.211 - gsmtp')
+2025-03-06 15:08:31,183 - INFO - Sent 30 new jobs from: LinkedIn
+2025-03-06 17:25:11,063 - INFO - Sent 30 new jobs from: LinkedIn
+2025-03-06 17:28:03,809 - INFO - Sent 30 new jobs from: LinkedIn
+2025-03-06 17:32:25,620 - INFO - Job crawler starting...
+2025-03-06 17:32:25,624 - INFO - Starting LinkedIn scraper...
+2025-03-06 17:32:37,180 - INFO - LinkedIn scraper found 30 jobs
+2025-03-06 17:32:37,181 - INFO - Starting Glassdoor scraper...
+2025-03-06 17:32:37,181 - INFO - Starting Glassdoor scraper for India-based software jobs...
+2025-03-06 17:32:37,181 - INFO - Sending request to Glassdoor with params: {'sc.keyword': 'software engineer', 'locT': 'N', 'locId': '115', 'jobType': 'all'}
+2025-03-06 17:32:37,254 - INFO - Glassdoor response status: 403
+2025-03-06 17:32:37,254 - WARNING - Glassdoor returned non-200 status code: 403
+2025-03-06 17:32:37,254 - WARNING - Response content preview: <!DOCTYPE html>
+<html>
+	<head>
+		<title>Security | Glassdoor</title>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		<meta name='viewport' content='width=device-width, initial...
+2025-03-06 17:32:37,254 - INFO - Glassdoor scraper found 0 jobs
+2025-03-06 17:32:37,254 - INFO - Starting Indeed scraper...
+2025-03-06 17:32:37,310 - INFO - Indeed scraper found 0 jobs
+2025-03-06 17:32:37,310 - INFO - Total jobs found: 30 (LinkedIn: 30, Glassdoor: 0, Indeed: 0)
+2025-03-06 17:32:37,322 - INFO - No new jobs found across all platforms
