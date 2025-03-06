@@ -25,3 +25,33 @@
 2025-03-06 17:32:37,310 - INFO - Indeed scraper found 0 jobs
 2025-03-06 17:32:37,310 - INFO - Total jobs found: 30 (LinkedIn: 30, Glassdoor: 0, Indeed: 0)
 2025-03-06 17:32:37,322 - INFO - No new jobs found across all platforms
+2025-03-06 22:09:03,689 - INFO - Job crawler starting...
+2025-03-06 22:09:03,694 - INFO - Starting LinkedIn scraper...
+2025-03-06 22:09:16,732 - INFO - LinkedIn scraper found 20 jobs
+2025-03-06 22:09:16,732 - INFO - Starting Naukri.com scraper...
+2025-03-06 22:09:16,733 - INFO - Starting Naukri.com scraper for software engineering jobs...
+2025-03-06 22:09:18,629 - INFO - Sending request to Naukri.com: https://www.naukri.com/software-engineer-jobs
+2025-03-06 22:09:18,746 - INFO - Naukri.com response status: 200
+2025-03-06 22:09:18,750 - INFO - Found 0 potential job listings
+2025-03-06 22:09:18,750 - INFO - Successfully extracted 0 jobs from Naukri.com
+2025-03-06 22:09:18,750 - INFO - Naukri.com scraper found 0 jobs
+2025-03-06 22:09:18,750 - INFO - Starting TimesJobs scraper...
+2025-03-06 22:09:18,750 - INFO - Starting TimesJobs scraper for India-based software jobs...
+2025-03-06 22:09:18,750 - INFO - Sending request to TimesJobs: https://www.timesjobs.com/jobsearch/software-engineer-jobs
+2025-03-06 22:09:18,918 - INFO - TimesJobs response status: 200
+2025-03-06 22:09:18,923 - INFO - Found 0 potential job listings
+2025-03-06 22:09:18,923 - INFO - Successfully extracted 0 jobs from TimesJobs
+2025-03-06 22:09:18,923 - INFO - TimesJobs scraper found 0 jobs
+2025-03-06 22:09:18,924 - INFO - Total jobs found: 20 (LinkedIn: 20, Naukri: 0, TimesJobs: 0)
+2025-03-06 22:09:18,937 - INFO - No new jobs found across all platforms
+2025-03-06 22:16:00,435 - INFO - Starting Glassdoor scraper for India-based software jobs...
+2025-03-06 22:16:00,437 - INFO - Sending request to Glassdoor with params: {'sc.keyword': 'software engineer', 'locT': 'N', 'locId': '115', 'jobType': 'all'}
+2025-03-06 22:16:00,539 - INFO - Glassdoor response status: 403
+2025-03-06 22:16:00,539 - WARNING - Glassdoor returned non-200 status code: 403
+2025-03-06 22:16:00,539 - WARNING - Response content preview: <!DOCTYPE html>
+<html>
+	<head>
+		<title>Security | Glassdoor</title>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		<meta name='viewport' content='width=device-width, initial...
+2025-03-06 22:16:03,992 - INFO - Sent 30 new jobs from: LinkedIn
