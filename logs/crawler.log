@@ -1,0 +1,4 @@
+2025-03-06 09:49:28,004 - INFO - No new jobs found.
+2025-03-06 09:49:52,076 - INFO - No new jobs found.
+2025-03-06 10:11:35,978 - ERROR - Critical error: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-736985151dcsm323737b3a.141 - gsmtp')
+2025-03-06 10:51:04,138 - INFO - Sent 30 new jobs from: LinkedIn
